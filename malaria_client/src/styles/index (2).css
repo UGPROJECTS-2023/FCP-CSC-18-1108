@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: "gilmer-regular";
+  src: url("/assets/fonts/Gilmer-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "almanera-bold";
+  src: url("/assets/fonts/Almarena\ -\ Almarena\ Bold.2006ef80787b5ce7df74e5d5e0bcb2c8.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "almanera-black";
+  src: url("/assets/fonts/Almarena\ -\ Almarena.b43eadf6c585ebcc7ea84b871a2bb034.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "almanera-regular";
+  src: url("/assets/fonts/Almarena\ -\ Almarena\ Display\ Regular.c87133a49217f8d377ab5bdb2b0eaa9f.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: "almanera-bolder";
+  src: url("/assets/fonts/Almarena\ -\ Almarena\ Display\ Bold.e0266ae78012c26fc07aa63294806bd4.otf")
+    format("truetype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: "gilmer-regular", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
